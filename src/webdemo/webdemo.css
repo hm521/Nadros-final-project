@@ -1,0 +1,55 @@
+.webdemowrapper{
+    float:left;
+    width:100%;
+    background-color: #eaedf1;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.webdemoleft{
+     display: inline-block;
+    float:left;
+    width:50%;
+    height:100%;
+}
+
+.page-header{
+    margin-left:6%;
+}
+.webdemovideo{
+    margin:50px;
+    margin-right:40px;
+}
+.webdemolefttitle{
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+.webdemodiscription{
+       margin-left: 38px;
+       position: relative;
+       bottom: 51px;
+}
+.videodiscription{
+        font-family: 'Roboto Condensed',
+        sans-serif;
+}
+.videosection{
+        width: 400px;
+        height: 400px;
+        background-color: purple;
+        float: left;
+        margin-top: 3%;
+        margin-left: 21px;
+        margin-right: 98px;
+}
+
+@media (max-width: 900px) {
+    .webdemoright {
+        display: block;
+    }
+     .webdemoleft {
+         display: block;
+     }
+}
+a:hover{
+    color:#337ab7;
+}

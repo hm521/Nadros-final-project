@@ -1,0 +1,18 @@
+.startlearningdiv{
+    background-color:#eaedf1;
+    width:100%;
+    float:left;
+    height:200px;
+}
+.startlearningnowbutton{
+           margin-top: 3%;
+           width: 265px;
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+}
+.startlearningh1{
+    text-align: center;
+    font-family: 'Roboto',
+    sans-serif;
+}

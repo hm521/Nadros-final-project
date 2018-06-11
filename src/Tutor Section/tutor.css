@@ -1,0 +1,47 @@
+.tutorwrapper{
+       height: auto;
+       width: 100%;
+       float: left;
+       padding-top: 7%;
+       padding-bottom: 7%;
+       
+    
+
+}
+.tutorleft{
+    height:100%;
+    width:50%;
+    float:left;
+}
+.tutorright {
+ 
+    float: left;
+}
+.carouselcontent{
+    height:400px;
+     width: 100%;
+    background-color: #286090;
+}
+.carouselcontent1 {
+    height: 400px;
+    width: 100%;
+    background-color: #286090;
+}
+.carouselcontent2 {
+    height: 400px;
+     width: 100%;
+    background-color:#286090;
+}
+.carouselwrapper{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:33px;
+    width:500px;
+    height:500px;
+}
+.tutdum{
+    height:200px;
+}
+.totor{
+    cursor: pointer;
+}

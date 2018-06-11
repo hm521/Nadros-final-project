@@ -1,0 +1,82 @@
+.navwrapper{
+            height: 844px;
+            float: left;
+            padding-bottom: 6%;
+        width:100%;
+        }
+
+.sediscription{
+         
+         height: 443px;
+         margin-top: 1%;
+
+}
+.lsdescription {
+        height: 443px;
+        margin-top: 1%;
+        
+}
+.gsdescription {
+        height: 443px;
+        margin-top: 1%;
+      
+}
+.bck-grnd-color{
+        background-color: white;
+        height: 600px;
+}
+.sizefortab{
+        height:100%;
+}
+#noanim-tab-example-tab-2{
+            font-weight: bold;
+            font-size: 18px;
+                color: black;
+            border: 0.5px solid black;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .12),
+            0 1px 3px rgba(0, 0, 0, .45);
+
+}
+#noanim-tab-example-tab-1 {
+        font-weight: bold;
+        font-size: 18px;
+          color: black;
+           border: 0.5px solid black;
+           box-shadow: 0 1px 3px rgba(0, 0, 0, .12),
+           0 1px 3px rgba(0, 0, 0, .45);
+
+}
+#noanim-tab-example-tab-3 {
+        font-weight: bold;
+        font-size: 18px;
+            color: black;
+         border: 0.5px solid black;
+         box-shadow: 0 1px 3px rgba(0, 0, 0, .12),
+         0 1px 3px rgba(0, 0, 0, .45);
+
+}
+.navwrapper{
+        float:left;
+}
+.page-header{
+            margin-left: 0;
+}
+
+.list-group{
+        margin-left:5%;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover{
+        background-color: #286090;
+        color:white;
+}
+#noanim-tab-example-tab-1:focus {
+        color:white ;
+}
+#noanim-tab-example-tab-2:focus {
+        color: white;
+}
+#noanim-tab-example-tab-3:focus {
+        color: white;
+}
