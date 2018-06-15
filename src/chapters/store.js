@@ -1,23 +1,31 @@
 let state = {
     index: 0,
+    track: 10,
     topicsList: [{
             videoId: 'sbvSBH2Mo20',
-            title: 'Intro To Functions'
+            title: 'Finding the inverse of a function'
+            ,type: 'video'
+        },
+        
+        {
+            title: "Range of a function",
+            videoId: '4kCHuVrtbc4'
+            , type: 'video'
         },
         {
-            title: "Functions In A plane"
+            title: "Domain of a function",
+            videoId: 'w81y25anEOM'
+            , type: 'video'
         },
         {
-            title: "Composition of Functions"
+            title: "Range of a function",
+            videoId: '4kCHuVrtbc4'
+            , type: 'video'
         },
         {
-            title: "Finding The Domain"
-        },
-        {
-            title: "Finding The Range"
-        },
-        {
-            title: "Inverse Functions"
+            title: "Excercise-finding domain and range of a function",
+            imageSrc: './excercisea.jpg',
+            type: 'video'
         }
     ]
 };
@@ -60,4 +68,22 @@ export const goNext = () => {
         title,
         index,
     })
+}
+export const goBack= () => {
+      const currentIndex = state.index
+      const index = currentIndex + -1
+      const nextTopic = state.topicsList[index]
+      if (!nextTopic) {
+          // finished list, do something
+          return;
+      }
+      const {
+          videoId,
+          title
+      } = nextTopic
+      setState({
+          videoId,
+          title,
+          index,
+      })
 }

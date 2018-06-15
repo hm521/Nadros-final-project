@@ -1,0 +1,24 @@
+.card{
+    width: 50%;
+
+}
+.form-control2{
+            width: 500px;
+            border-radius: 8px;
+            margin-top: 19px;
+            margin-bottom: 20px;
+            height:130px;
+            border:1px lightgrey solid;
+            padding: 2px;
+}
+.form-control1 {
+    width: 310px;
+    border-radius: 8px;
+    border:1px lightgrey solid;
+    width:500px;
+    height: 35px;
+    padding: 2px;
+}
+.sizei{
+    width: 200px;
+}

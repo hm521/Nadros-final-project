@@ -2,8 +2,9 @@
        height: auto;
        width: 100%;
        float: left;
-       padding-top: 7%;
-       padding-bottom: 7%;
+       padding-top: 4%;
+              padding-bottom: 4%;
+       
        
     
 
@@ -33,11 +34,10 @@
     background-color:#286090;
 }
 .carouselwrapper{
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:33px;
-    width:500px;
-    height:500px;
+  margin-top: 33px;
+  width: 600px;
+  height: 400px;
+  margin-left: 50px;
 }
 .tutdum{
     height:200px;

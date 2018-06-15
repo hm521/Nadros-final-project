@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "0.0.20",
+    "ably": "^1.0.14",
+    "express": "^4.16.3",
     "google-map-react": "^1.0.3",
     "google-maps-react": "^2.0.2",
     "react": "^16.3.2",
@@ -19,7 +21,9 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
     "react-share-icons": "^1.1.2",
-    "react-social-icons": "^3.0.0"
+    "react-social-icons": "^3.0.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

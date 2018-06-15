@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {NavBar} from './NavBar/Navbar.js';
 import {Section1} from './Section1/section1.js';
-import {NavJustified} from './Demo Section/demo.js'
+//import {NavJustified} from './Demo Section/demo.js'
 import {Footer} from './Footer/footer.js';
 import {Webdemo} from './webdemo/webdemo.js';
 import {Tutor} from './Tutor Section/tutor.js'
@@ -14,7 +14,7 @@ class HomePage extends Component {
       <div className="Menu">
    <NavBar />
 <Section1/>
-< NavJustified/>
+
 <Webdemo />
  <  Tutor />
  <Startlearning/>

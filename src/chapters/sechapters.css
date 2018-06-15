@@ -2,25 +2,33 @@ body{
     background-color: #eaedf1;
 }
 .sechapters{
-        height: 1400px;
         background-color: white;
         margin-left: 15%;
         margin-right: 15%;
-        margin-top: 20%;
+        margin-top: 0%;
         margin-bottom: 5%;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, .12),
+        border-bottom: 0 1px 3px rgba(0, 0, 0, .12),
         0 1px 3px rgba(0, 0, 0, .45);
 }
+
+.sechapterswrapper{
+    background-color: white;
+    float:left;
+}
+
 .a{
     border-bottom: 1px solid grey;
-    height:14.2%;
     float:left;
     width:100%;
+    padding-bottom: 70px;
+    padding-top:70px;
 }
-.b{
-    height:14.2%;
-    float:left;
-    width:100%;
+.ac{
+    float: left;
+    width: 100%;
+    padding-bottom: 70px;
+    padding-top: 70px;
+
 }
 /*.se-logo{
        height: 40%;
@@ -51,21 +59,13 @@ body{
 
 .first{
     float:left;
-        margin-left: 120px;
-}
-.second{
-    float:left;
-}
-.third{
-float:left;
+    margin-right:100px;
 }
 .ulwrapper{
-    margin-top: 40px;
-    position: absolute;
-    right: 242px;
+padding-top: 50px;
 }
 .sections{
-    font-size:14px;
+    font-size: 22px;
     cursor: pointer;
     color:gray;
 }
@@ -74,11 +74,13 @@ float:left;
     color:black;
 }
 
-.othersections{
+.othersection{
   background-color: #eaedf1;
-  width: 100%;
-  height: 250px;
-  padding-top: 60px;
+  padding-top:70px;
+  padding-bottom: 70px;
+  float:left;
+  width:100%;
+  display: flex;
 }
 .leftside{
     height:100%;
@@ -91,8 +93,9 @@ float:left;
         height: 130px;
         width: 340px;
         cursor: pointer;
-        margin-left: 24%;
             background-color: white;
+            border-radius: 8px;
+            float:left;
 }
 .gssection{
     box-shadow: 0 1px 3px rgba(0, 0, 0, .12),
@@ -102,13 +105,15 @@ float:left;
     margin-left: 100px;
     cursor: pointer;
         background-color: white;
+        border-radius: 8px;
+        float: left;
 }
 
 .tester{
         height: 500px;
         width: 700px;
         margin-top: 20%;
-         border-radius: 12px;
+         border-radius: 8px;
          box-shadow: 0 1px 3px rgba(0, 0, 0, .12),
          0 1px 3px rgba(0, 0, 0, .45);
        margin-left: auto;
@@ -148,4 +153,26 @@ float:left;
     margin-top:5%;
     margin-left:2%;
     font-weight: bold;
+}
+.logo-side{
+    float:left;
+}
+.kk{
+    margin-left:auto;
+    margin-right:auto;
+}
+.toytl{
+        float: left;
+        width: 100%;
+        height: 480px
+}
+.divtop{
+
+        width: 700px;
+        height: 201px;
+        background-color: white;
+        margin-top: 14%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
 }

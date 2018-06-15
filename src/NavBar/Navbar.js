@@ -3,7 +3,7 @@ import './Navbar.css';
 import {Button, Nav, Navbar, Checkbox, NavItem,Panel, NavDropdown, MenuItem, Popover, Tooltip, Modal, Form, FormGroup, Col, ControlLabel, FormControl} from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
-import logo1 from '../images/logo1.png'
+
 
 
 
@@ -43,7 +43,7 @@ export class NavBar extends Component {
         < Navbar inverse collapseOnSelect fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="/"><img src={logo1} className='logo1'/></a>
+              <a href="/"><img className='logo' src={logo}/></a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
@@ -63,6 +63,8 @@ export class NavBar extends Component {
               <NavItem eventKey={1} href="#" className='fnt-size' >
                 Log In
       </NavItem>
+
+      
               <Button bsStyle="primary" className='fnt-size signup-btn sign-up-pst' onClick={this.handleShow}>Sign Up</Button>
             </Nav>
           </Navbar.Collapse>
@@ -71,12 +73,12 @@ export class NavBar extends Component {
     
 
 
-          <Modal show={this.state.show} onHide={this.handleClose}>
-            <Modal.Header closeButton>
+          <Modal show={this.state.show} onHide={this.handleClose} className='modale mdo'>
+            <Modal.Header closeButton className='modale'>
               <Modal.Title><h1>Sign Up</h1></Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
-              <img src={logo} />
+            </Modal.Header >
+            <Modal.Body className='modale'>
+            
 <Form horizontal>
   <FormGroup controlId="formHorizontalEmail">
     <Col componentClass={ControlLabel} sm={2}>
@@ -132,7 +134,7 @@ export class NavBar extends Component {
               <Button onClick={this.handleClose}>Close</Button>
             </Modal.Footer>
           </Modal>
-        </div>
+        </div>  
       </div>
     );
   }

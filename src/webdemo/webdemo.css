@@ -1,7 +1,7 @@
 .webdemowrapper{
     float:left;
     width:100%;
-    background-color: #eaedf1;
+        background-color: white;
     padding-top: 4%;
     padding-bottom: 4%;
 }
@@ -33,13 +33,11 @@
         sans-serif;
 }
 .videosection{
-        width: 400px;
-        height: 400px;
-        background-color: purple;
-        float: left;
-        margin-top: 3%;
-        margin-left: 21px;
-        margin-right: 98px;
+    width:500px;
+    height:300px;
+    float:left;
+      margin-left:50px;
+  
 }
 
 @media (max-width: 900px) {

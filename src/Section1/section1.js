@@ -33,7 +33,7 @@ export class Section1 extends React.Component{
             <div className='section1'>
         <div className='section1content'>
         <div className='homepageheaderwrapper' align='center'>
-        <p className='homepageheader'>"Nadros Is The Most Affordable Way To Study Mathematics For Your Official Exams"</p>
+        <p className='homepageheader'>"Nadros Is The Most Cost Effective Way To Study For Your Official Exams."</p>
         </div>
         <div className='boxwrapper'>
 <div className='boxes'>
@@ -73,12 +73,12 @@ export class Section1 extends React.Component{
         </div>
 
 
-          <Modal show={this.state.show} onHide={this.handleClose}>
-            <Modal.Header closeButton>
+          <Modal show={this.state.show} onHide={this.handleClose} className='modale mdo'>
+            <Modal.Header closeButton className='modale'>
               <Modal.Title><h1>Sign Up</h1></Modal.Title>
             </Modal.Header>
-            <Modal.Body>
-              <img src={logo} />
+            <Modal.Body className='modale'>
+             
 <Form horizontal>
   <FormGroup controlId="formHorizontalEmail">
     <Col componentClass={ControlLabel} sm={2}>
